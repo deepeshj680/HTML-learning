@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/fill" method="post">
+        <label for="username">Username: </label>
+         <input type="text" placeholder="Enter Your Name" id="username" required="true">
+         <label for="password">Password: </label>
+         <input type="password" id="password"><br><br>
+         Date: <input type="date">
+          File: <input type="file"><br><br>
+          Color: <input type="color">
+          Price Range: <input type="range"><br><br>
+          <label for="male">Male: </label>
+         <input type="radio" name="gender" value="Male" id="male">
+         <label for="Female">Female: </label>
+         <input type="radio" name="gender" value="Female" id="Female">
+         <label for="Others">Others: </label>
+         <input type="radio" name="gender" value="Others" id="Others"><br><br>
+         <label for="Language">Language You Konw</label><span></span>
+         <label for="c">C</label>
+         <input type="checkbox" name="lang" id="c" value="c">
+         <label for="java">Java</label>
+         <input type="checkbox" name="lang" id="java" value="java">
+         <label for="python">Python</label>
+         <input type="checkbox" name="lang" id="python" value="python"><br><br>
+          Poke me: <input type="button" value="Poked">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
